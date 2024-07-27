@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DayLight KPOP Merch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">DayLight</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="cart"><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></div>
+        </nav>
+    </header>
+
+    <!-- Products Page Content -->
+    <main id="products">
+        <h1>Our Products</h1>
+        <div class="product">
+            <img src="images/BTSlamp.jpg" alt="BTS-Mood Lamp">
+            <p>BTS - Mood Lamp</p>
+            <p>$100</p>
+            <input type="number" value="1" min="1" name="BTS-Mood Lamp">
+            <button onclick="addToCart('BTS-Mood Lamp', 100, 'images/BTSlamp.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/ENHYPENdarkblood.jpg" alt="ENHYPEN-Dark Blood Album">
+            <p>ENHYPEN - Dark Blood Album</p>
+            <p>$25</p>
+            <input type="number" value="1" min="1" name="ENHYPEN-Dark Blood Album">
+            <button onclick="addToCart('ENHYPEN-Dark Blood Album', 25, 'images/ENHYPENdarkblood.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/ENHYPENlightstick.jpg" alt="ENHYPEN-Official Lightstick">
+            <p>ENHYPEN - Official Lightstick</p>
+            <p>$25</p>
+            <input type="number" value="1" min="1" name="ENHYPEN-Official Lightstick">
+            <button onclick="addToCart('ENHYPEN-Official Lightstick', 25, 'images/ENHYPENlightstick.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/bndalbum.jpg" alt="BOYNEXTDOOR-WHO Album">
+            <p>BOYNEXTDOOR - WHO Album</p>
+            <p>$25</p>
+            <input type="number" value="1" min="1" name="BOYNEXTDOOR-WHO Album">
+            <button onclick="addToCart('BOYNEXTDOOR-WHO Album', 25, 'images/bndalbum.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/BPbornpinkalbum.jpg" alt="BLACKPINK-Born Pink Album">
+            <p>BLACKPINK - Born Pink Album</p>
+            <p>$30</p>
+            <input type="number" value="1" min="1" name="BLACKPINK-Born Pink Album">
+            <button onclick="addToCart('BLACKPINK-Born Pink Album', 30, 'images/BPbornpinkalbum.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/BTSBEalbum.jpg" alt="BTS-BE Album">
+            <p>BTS - BE Album</p>
+            <p>$25</p>
+            <input type="number" value="1" min="1" name="BTS-BE Album">
+            <button onclick="addToCart('BTS-BE Album', 25, 'images/BTSBEalbum.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/BTSGoldenalbum.jpg" alt="BTS-Jungkook Golden Album">
+            <p>BTS - Jungkook Golden Album</p>
+            <p>$20</p>
+            <input type="number" value="1" min="1" name="BTS-Jungkook Golden Album">
+            <button onclick="addToCart('BTS-Jungkook Golden Album', 20, 'images/BTSGoldenalbum.jpg')">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/BPlightstickv2.jpg" alt="BLACKPINK-Official Lightstick V2">
+            <p>BLACKPINK - Official Lightstick V2</p>
+            <p>$75</p>
+            <input type="number" value="1" min="1" name="BLACKPINK-Official Lightstick V2">
+            <button onclick="addToCart('BLACKPINK-Official Lightstick V2', 75, 'images/BPlightstickv2.jpg')">Add to Cart</button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 DayLight</p>
+        <ul>
+            <li><a href="review.html">Leave a Review</a></li>
+            <li><a href="terms.html">Terms and Conditions</a></li>
+            <li><a href="refund.html">Refund Policy</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
